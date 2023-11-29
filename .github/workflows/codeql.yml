@@ -73,7 +73,7 @@ jobs:
     #  uses: github/codeql-action/autobuild@v2
 
     - name: custom build
-      run: ./gradlew build
+      run: ./gradlew build -x test
     
 
     # ℹ️ Command-line programs to run using the OS shell.
